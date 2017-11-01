@@ -91,6 +91,7 @@ class ConfigProvider
                 Action\ReviewAction::class => ReflectionBasedAbstractFactory::class,
                 Middleware\AddReviewValidationMiddleware::class => Middleware\ContentValidationMiddlewareFactory::class,
                 Action\AddReviewAction::class => ReflectionBasedAbstractFactory::class,
+                Action\AddBookAction::class => ReflectionBasedAbstractFactory::class,
                 Middleware\UpdateReviewValidationMiddleware::class => Middleware\ContentValidationMiddlewareFactory::class,
                 Action\UpdateReviewAction::class => ReflectionBasedAbstractFactory::class
             ]
